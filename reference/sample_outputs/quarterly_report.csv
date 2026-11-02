@@ -1,0 +1,9 @@
+﻿rank,report_date,ticker,company_name,market,total,value,dividend,health,past,future,rating,yield_class,dcf_class
+1,2026-10-31,2222.SR,Saudi Aramco,TASI,22,5,5,6,6,0,Good,Fairly valued,Undervalued
+2,2026-10-31,MSFT,Microsoft,US,21,0,5,6,6,4,Good,Overvalued,Overvalued
+3,2026-10-31,NVDA,NVIDIA,US,20,0,3,6,6,5,Good,Overvalued,Overvalued
+4,2026-10-31,7200.SR,Almoammar Information Systems,TASI,19,0,3,6,6,4,Good,Overvalued,Fairly valued
+5,2026-10-31,AMD,AMD,US,13,0,1,6,2,4,Average,n/a,Overvalued
+6,2026-10-31,TSLA,Tesla,US,13,0,1,6,3,3,Average,n/a,Overvalued
+7,2026-10-31,AAPL,Apple,US,13,0,5,4,2,2,Average,Overvalued,Overvalued
+8,2026-10-31,2082.SR,ACWA Power,TASI,10,0,1,2,3,4,Weak,Overvalued,n/a

@@ -1,0 +1,1384 @@
+{
+ "generated_at": "2026-10-30T21:05:30+00:00",
+ "disclaimer": "Descriptive quantitative analytics only. Not investment advice or a recommendation to buy or sell.",
+ "data_sources": {
+  "intraday": {
+   "NVDA": "SYNTHETIC (ImportError)",
+   "TSLA": "SYNTHETIC (ImportError)",
+   "AMD": "SYNTHETIC (ImportError)",
+   "AAPL": "SYNTHETIC (ImportError)",
+   "MSFT": "SYNTHETIC (ImportError)",
+   "2082.SR": "SYNTHETIC (ImportError)",
+   "7200.SR": "SYNTHETIC (ImportError)",
+   "2222.SR": "SYNTHETIC (ImportError)"
+  },
+  "fundamentals": {
+   "NVDA": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "TSLA": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "AMD": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "AAPL": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "MSFT": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "2082.SR": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "7200.SR": "ILLUSTRATIVE FIXTURE (ImportError)",
+   "2222.SR": "ILLUSTRATIVE FIXTURE (ImportError)"
+  }
+ },
+ "day_trading": {
+  "config": {
+   "orb_minutes": 30,
+   "target_pct": 2.5,
+   "stop_pct": 1.2,
+   "top_k": 3,
+   "weights": {
+    "rvol": 0.25,
+    "atr_pct": 0.15,
+    "vwap_dev_pct": 0.15,
+    "gap_score": 0.15,
+    "roc_pct": 0.1,
+    "accel_pct": 0.05,
+    "overnight_break": 0.1,
+    "overnight_vol_ratio": 0.05
+   }
+  },
+  "baskets": {
+   "TASI": {
+    "date": "2026-10-29",
+    "candidates": [
+     {
+      "rank": 1,
+      "ticker": "2222.SR",
+      "composite_score": -1.0247,
+      "selected": true,
+      "relaxed_filters": false,
+      "factors": {
+       "rvol": 1.0102,
+       "atr_pct": 3.8397,
+       "gap_pct": -0.6949,
+       "vwap_dev_pct": -0.0737,
+       "roc_pct": 0.0593,
+       "accel_pct": -0.6128,
+       "spread_pct": 0.8025,
+       "overnight_vol_ratio": 0.0,
+       "overnight_break": 0
+      }
+     },
+     {
+      "rank": 2,
+      "ticker": "2082.SR",
+      "composite_score": -0.6502,
+      "selected": true,
+      "relaxed_filters": true,
+      "factors": {
+       "rvol": 0.6871,
+       "atr_pct": 3.3812,
+       "gap_pct": 1.0038,
+       "vwap_dev_pct": 0.2824,
+       "roc_pct": 0.4528,
+       "accel_pct": -0.0233,
+       "spread_pct": 0.978,
+       "overnight_vol_ratio": 0.0,
+       "overnight_break": 0
+      }
+     },
+     {
+      "rank": 3,
+      "ticker": "7200.SR",
+      "composite_score": -0.6792,
+      "selected": true,
+      "relaxed_filters": true,
+      "factors": {
+       "rvol": 1.4739,
+       "atr_pct": 4.0761,
+       "gap_pct": 0.6647,
+       "vwap_dev_pct": 0.0569,
+       "roc_pct": 0.2104,
+       "accel_pct": -0.4971,
+       "spread_pct": 1.3028,
+       "overnight_vol_ratio": 0.0,
+       "overnight_break": 0
+      }
+     }
+    ]
+   },
+   "US": {
+    "date": "2026-10-30",
+    "candidates": [
+     {
+      "rank": 1,
+      "ticker": "MSFT",
+      "composite_score": 0.7273,
+      "selected": true,
+      "relaxed_filters": false,
+      "factors": {
+       "rvol": 1.8186,
+       "atr_pct": 3.3619,
+       "gap_pct": -0.6022,
+       "vwap_dev_pct": 0.0908,
+       "roc_pct": 0.2795,
+       "accel_pct": -0.421,
+       "spread_pct": 0.6405,
+       "overnight_vol_ratio": 1.3797,
+       "overnight_break": 1
+      }
+     },
+     {
+      "rank": 2,
+      "ticker": "NVDA",
+      "composite_score": -0.8422,
+      "selected": true,
+      "relaxed_filters": true,
+      "factors": {
+       "rvol": 0.651,
+       "atr_pct": 4.5209,
+       "gap_pct": -0.0321,
+       "vwap_dev_pct": -0.1266,
+       "roc_pct": -0.0191,
+       "accel_pct": -0.6051,
+       "spread_pct": 0.8941,
+       "overnight_vol_ratio": 0.6703,
+       "overnight_break": 0
+      }
+     },
+     {
+      "rank": 3,
+      "ticker": "AAPL",
+      "composite_score": -0.8772,
+      "selected": true,
+      "relaxed_filters": true,
+      "factors": {
+       "rvol": 0.9716,
+       "atr_pct": 3.6676,
+       "gap_pct": -2.0318,
+       "vwap_dev_pct": -0.1483,
+       "roc_pct": 0.3676,
+       "accel_pct": -1.2141,
+       "spread_pct": 1.0656,
+       "overnight_vol_ratio": 0.9601,
+       "overnight_break": 0
+      }
+     },
+     {
+      "rank": 4,
+      "ticker": "TSLA",
+      "composite_score": -0.94,
+      "selected": false,
+      "relaxed_filters": false,
+      "factors": {
+       "rvol": 0.5937,
+       "atr_pct": 2.5642,
+       "gap_pct": -1.2179,
+       "vwap_dev_pct": 0.0872,
+       "roc_pct": -0.0538,
+       "accel_pct": 0.3765,
+       "spread_pct": 0.9047,
+       "overnight_vol_ratio": 0.6257,
+       "overnight_break": 0
+      }
+     },
+     {
+      "rank": 5,
+      "ticker": "AMD",
+      "composite_score": -1.0432,
+      "selected": false,
+      "relaxed_filters": false,
+      "factors": {
+       "rvol": 0.5764,
+       "atr_pct": 2.8343,
+       "gap_pct": -1.237,
+       "vwap_dev_pct": -0.0566,
+       "roc_pct": 0.1946,
+       "accel_pct": -0.9871,
+       "spread_pct": 0.8752,
+       "overnight_vol_ratio": 0.5924,
+       "overnight_break": 0
+      }
+     }
+    ]
+   }
+  },
+  "backtest": {
+   "trades": 120,
+   "win_rate_pct": 41.6667,
+   "profit_factor": 0.8073,
+   "avg_trade_pct": -0.1329,
+   "sharpe_annualised": -3.8732,
+   "max_drawdown_pct": -5.5105,
+   "total_return_pct": -4.463
+  }
+ },
+ "long_term": {
+  "NVDA": {
+   "market": "US",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 3,
+     "Health": 6,
+     "Past": 6,
+     "Future": 5
+    },
+    "total": 20,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Pays a dividend",
+      "Payout ratio between 0 and 75%",
+      "Dividend covered by free cash flow"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%",
+      "Net income CAGR above 10%",
+      "ROE above 15%",
+      "ROCE above 12%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%",
+      "Forward revenue growth above 10%",
+      "PEG below 2"
+     ]
+    }
+   },
+   "altman": {
+    "z": 60.2471,
+    "z_prime": 5.4063
+   },
+   "valuation": {
+    "price": 120,
+    "wacc": 0.1268,
+    "target_yield_fv": 0.2,
+    "target_yield_mos": -599.0,
+    "target_yield_class": "Overvalued",
+    "dcf_fv": 47.8494,
+    "dcf_mos": -1.5079,
+    "dcf_class": "Overvalued"
+   },
+   "filing_sentiment": null
+  },
+  "TSLA": {
+   "market": "US",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 1,
+     "Health": 6,
+     "Past": 3,
+     "Future": 3
+    },
+    "total": 13,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Dividend covered by free cash flow"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 11.4699,
+    "z_prime": 2.0134
+   },
+   "valuation": {
+    "price": 250,
+    "wacc": 0.1552,
+    "target_yield_fv": null,
+    "target_yield_mos": null,
+    "target_yield_class": "n/a",
+    "dcf_fv": 19.8216,
+    "dcf_mos": -11.6125,
+    "dcf_class": "Overvalued"
+   },
+   "filing_sentiment": {
+    "words": 42,
+    "positive": 0,
+    "negative": 4,
+    "net_sentiment": -1.0,
+    "label": "negative",
+    "uncertainty_per_1k": 23.8095,
+    "litigious_per_1k": 71.4286
+   }
+  },
+  "AMD": {
+   "market": "US",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 1,
+     "Health": 6,
+     "Past": 2,
+     "Future": 4
+    },
+    "total": 13,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Dividend covered by free cash flow"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%",
+      "Forward revenue growth above 10%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 13.9451,
+    "z_prime": 2.7702
+   },
+   "valuation": {
+    "price": 150,
+    "wacc": 0.1311,
+    "target_yield_fv": null,
+    "target_yield_mos": null,
+    "target_yield_class": "n/a",
+    "dcf_fv": 29.1958,
+    "dcf_mos": -4.1377,
+    "dcf_class": "Overvalued"
+   },
+   "filing_sentiment": null
+  },
+  "AAPL": {
+   "market": "US",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 5,
+     "Health": 4,
+     "Past": 2,
+     "Future": 2
+    },
+    "total": 13,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Pays a dividend",
+      "Payout ratio between 0 and 75%",
+      "Dividend covered by free cash flow",
+      "Dividend per share grew over history",
+      "No dividend cut in history"
+     ],
+     "Health": [
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "ROE above 15%",
+      "ROCE above 12%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward revenue growth above 5%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 8.7556,
+    "z_prime": 2.1046
+   },
+   "valuation": {
+    "price": 230,
+    "wacc": 0.1003,
+    "target_yield_fv": 20.0,
+    "target_yield_mos": -10.5,
+    "target_yield_class": "Overvalued",
+    "dcf_fv": 141.948,
+    "dcf_mos": -0.6203,
+    "dcf_class": "Overvalued"
+   },
+   "filing_sentiment": {
+    "words": 38,
+    "positive": 6,
+    "negative": 1,
+    "net_sentiment": 0.7143,
+    "label": "positive",
+    "uncertainty_per_1k": 78.9474,
+    "litigious_per_1k": 52.6316
+   }
+  },
+  "MSFT": {
+   "market": "US",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 5,
+     "Health": 6,
+     "Past": 6,
+     "Future": 4
+    },
+    "total": 21,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Pays a dividend",
+      "Payout ratio between 0 and 75%",
+      "Dividend covered by free cash flow",
+      "Dividend per share grew over history",
+      "No dividend cut in history"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%",
+      "Net income CAGR above 10%",
+      "ROE above 15%",
+      "ROCE above 12%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%",
+      "Forward revenue growth above 10%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 9.4882,
+    "z_prime": 1.9672
+   },
+   "valuation": {
+    "price": 420,
+    "wacc": 0.0861,
+    "target_yield_fv": 60.0,
+    "target_yield_mos": -6.0,
+    "target_yield_class": "Overvalued",
+    "dcf_fv": 311.7703,
+    "dcf_mos": -0.3471,
+    "dcf_class": "Overvalued"
+   },
+   "filing_sentiment": null
+  },
+  "2082.SR": {
+   "market": "TASI",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 1,
+     "Health": 2,
+     "Past": 3,
+     "Future": 4
+    },
+    "total": 10,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Pays a dividend"
+     ],
+     "Health": [
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%",
+      "Forward revenue growth above 10%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 4.6848,
+    "z_prime": 0.3774
+   },
+   "valuation": {
+    "price": 450,
+    "wacc": 0.0978,
+    "target_yield_fv": 60.0,
+    "target_yield_mos": -6.5,
+    "target_yield_class": "Overvalued",
+    "dcf_fv": null,
+    "dcf_mos": null,
+    "dcf_class": "n/a"
+   },
+   "filing_sentiment": null
+  },
+  "7200.SR": {
+   "market": "TASI",
+   "scorecard": {
+    "axes": {
+     "Value": 0,
+     "Dividend": 3,
+     "Health": 6,
+     "Past": 6,
+     "Future": 4
+    },
+    "total": 19,
+    "passed": {
+     "Value": [],
+     "Dividend": [
+      "Pays a dividend",
+      "Dividend per share grew over history",
+      "No dividend cut in history"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%",
+      "Net income CAGR above 10%",
+      "ROE above 15%",
+      "ROCE above 12%"
+     ],
+     "Future": [
+      "Forward EPS growth above 5%",
+      "Forward EPS growth above 10%",
+      "Forward revenue growth above 5%",
+      "Forward revenue growth above 10%"
+     ]
+    }
+   },
+   "altman": {
+    "z": 5.9736,
+    "z_prime": 2.3539
+   },
+   "valuation": {
+    "price": 150,
+    "wacc": 0.0941,
+    "target_yield_fv": 120.0,
+    "target_yield_mos": -0.25,
+    "target_yield_class": "Overvalued",
+    "dcf_fv": 134.5682,
+    "dcf_mos": -0.1147,
+    "dcf_class": "Fairly valued"
+   },
+   "filing_sentiment": null
+  },
+  "2222.SR": {
+   "market": "TASI",
+   "scorecard": {
+    "axes": {
+     "Value": 5,
+     "Dividend": 5,
+     "Health": 6,
+     "Past": 6,
+     "Future": 0
+    },
+    "total": 22,
+    "passed": {
+     "Value": [
+      "P/E below industry P/E",
+      "Price below DCF value",
+      "20% margin of safety vs DCF",
+      "FCF yield above 4%",
+      "P/E below 25"
+     ],
+     "Dividend": [
+      "Pays a dividend",
+      "Yield at or above market baseline",
+      "Dividend covered by free cash flow",
+      "Dividend per share grew over history",
+      "No dividend cut in history"
+     ],
+     "Health": [
+      "Debt/Equity below 1",
+      "Current ratio above 1.5",
+      "Cash covers 25% of debt",
+      "Operating cash flow covers 20% of debt",
+      "Altman Z above 1.81 (not distressed)",
+      "Altman Z above 2.99 (safe zone)"
+     ],
+     "Past": [
+      "Revenue CAGR above 5%",
+      "Revenue CAGR above 10%",
+      "Net income CAGR above 5%",
+      "Net income CAGR above 10%",
+      "ROE above 15%",
+      "ROCE above 12%"
+     ],
+     "Future": []
+    }
+   },
+   "altman": {
+    "z": 7.6665,
+    "z_prime": 3.0297
+   },
+   "valuation": {
+    "price": 27.5,
+    "wacc": 0.0879,
+    "target_yield_fv": 32.0,
+    "target_yield_mos": 0.1406,
+    "target_yield_class": "Fairly valued",
+    "dcf_fv": 36.6626,
+    "dcf_mos": 0.2499,
+    "dcf_class": "Undervalued"
+   },
+   "filing_sentiment": {
+    "words": 38,
+    "positive": 5,
+    "negative": 0,
+    "net_sentiment": 1.0,
+    "label": "positive",
+    "uncertainty_per_1k": 52.6316,
+    "litigious_per_1k": 0.0
+   }
+  }
+ },
+ "ai_day_trading": {
+  "data_mode": "SYNTHETIC",
+  "note": "Descriptive screening statistics, not advice. With DATA_MODE=SYNTHETIC nothing here says anything about real markets: it only proves the machinery works.",
+  "universe": {
+   "tickers": 45,
+   "US": 25,
+   "TASI": 20
+  },
+  "success_definition": "closes at least +2.0% above its open",
+  "horizons_days": [
+   5,
+   10,
+   21,
+   252
+  ],
+  "out_of_sample": {
+   "first": "2024-10-07",
+   "last": "2026-10-30",
+   "sessions": 647,
+   "retrainings": 31,
+   "base_rate_pct": 14.4934
+  },
+  "metrics": {
+   "ML ranker": {
+    "trades": 3237.0,
+    "win_rate_pct": 48.1928,
+    "profit_factor": 0.9817,
+    "avg_trade_pct": -0.0242,
+    "sharpe_annualised": -0.4891,
+    "max_drawdown_pct": -50.0076,
+    "total_return_pct": -32.4159,
+    "hit_rate_pct": 25.7028
+   },
+   "Rule-based (spec weights)": {
+    "trades": 3237.0,
+    "win_rate_pct": 47.5131,
+    "profit_factor": 0.9082,
+    "avg_trade_pct": -0.0952,
+    "sharpe_annualised": -1.0827,
+    "max_drawdown_pct": -48.5392,
+    "total_return_pct": -44.9643,
+    "hit_rate_pct": 18.8137
+   },
+   "Whole universe (no ranking)": {
+    "trades": 24280.0,
+    "win_rate_pct": 47.2694,
+    "profit_factor": 0.9015,
+    "avg_trade_pct": -0.0841,
+    "sharpe_annualised": -3.8695,
+    "max_drawdown_pct": -45.202,
+    "total_return_pct": -45.4706,
+    "hit_rate_pct": 14.4934
+   }
+  },
+  "ml_vs_universe_ci_pct": [
+   -0.0639,
+   0.1602
+  ],
+  "ml_vs_rule_ci_pct": [
+   -0.1014,
+   0.1711
+  ],
+  "rank_ic_mean": -0.0053,
+  "importance": {
+   "atr_pct": 0.0346,
+   "rvol": 0.0013,
+   "gap_pct": 0.0012,
+   "spread_pct": 0.0009,
+   "vol_21d": 0.0005,
+   "ret_1d": 0.0005,
+   "ret_252d": 0.0005,
+   "dist_high_252d": 0.0005,
+   "ret_10d": 0.0001,
+   "is_tasi": -0.0,
+   "ret_5d": -0.0001,
+   "ret_21d": -0.0004
+  },
+  "latest_session_picks": [
+   {
+    "date": "2026-10-30",
+    "market": "US",
+    "rank": 1,
+    "ticker": "QCOM",
+    "company_name": "Qualcomm",
+    "probability": 0.3467,
+    "change_pct": 7.8611,
+    "success": 1,
+    "reason": "Usually moves over a wide range during the day (raised its rank); the gap between buy and sell prices is wide (raised its rank); is far below its highest price of the year (lowered its rank)"
+   },
+   {
+    "date": "2026-10-30",
+    "market": "US",
+    "rank": 2,
+    "ticker": "CRM",
+    "company_name": "Salesforce",
+    "probability": 0.2573,
+    "change_pct": 1.1408,
+    "success": 0,
+    "reason": "Usually moves over a wide range during the day (raised its rank); opened above yesterday's close (raised its rank); did better than usual over the last year (raised its rank)"
+   },
+   {
+    "date": "2026-10-30",
+    "market": "US",
+    "rank": 3,
+    "ticker": "AMD",
+    "company_name": "AMD",
+    "probability": 0.2453,
+    "change_pct": -0.615,
+    "success": 0,
+    "reason": "Usually moves over a wide range during the day (raised its rank); did better than usual over the last year (raised its rank); rose less than usual yesterday, or fell (raised its rank)"
+   }
+  ],
+  "monthly": [
+   {
+    "month": "2024-10",
+    "model_version": "ML-v1",
+    "picks": 114,
+    "successes": 34,
+    "success_rate_pct": 29.8,
+    "avg_net_pct": 0.165
+   },
+   {
+    "month": "2024-10",
+    "model_version": "RULE-v1",
+    "picks": 114,
+    "successes": 18,
+    "success_rate_pct": 15.8,
+    "avg_net_pct": -0.305
+   },
+   {
+    "month": "2024-11",
+    "model_version": "ML-v1",
+    "picks": 123,
+    "successes": 29,
+    "success_rate_pct": 23.6,
+    "avg_net_pct": -0.204
+   },
+   {
+    "month": "2024-11",
+    "model_version": "RULE-v1",
+    "picks": 123,
+    "successes": 24,
+    "success_rate_pct": 19.5,
+    "avg_net_pct": -0.049
+   },
+   {
+    "month": "2024-12",
+    "model_version": "ML-v1",
+    "picks": 135,
+    "successes": 41,
+    "success_rate_pct": 30.4,
+    "avg_net_pct": 0.514
+   },
+   {
+    "month": "2024-12",
+    "model_version": "RULE-v1",
+    "picks": 135,
+    "successes": 27,
+    "success_rate_pct": 20.0,
+    "avg_net_pct": -0.009
+   },
+   {
+    "month": "2025-01",
+    "model_version": "ML-v1",
+    "picks": 135,
+    "successes": 40,
+    "success_rate_pct": 29.6,
+    "avg_net_pct": 0.15
+   },
+   {
+    "month": "2025-01",
+    "model_version": "RULE-v1",
+    "picks": 135,
+    "successes": 24,
+    "success_rate_pct": 17.8,
+    "avg_net_pct": -0.092
+   },
+   {
+    "month": "2025-02",
+    "model_version": "ML-v1",
+    "picks": 120,
+    "successes": 25,
+    "success_rate_pct": 20.8,
+    "avg_net_pct": -0.307
+   },
+   {
+    "month": "2025-02",
+    "model_version": "RULE-v1",
+    "picks": 120,
+    "successes": 30,
+    "success_rate_pct": 25.0,
+    "avg_net_pct": 0.317
+   },
+   {
+    "month": "2025-03",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 35,
+    "success_rate_pct": 27.1,
+    "avg_net_pct": -0.016
+   },
+   {
+    "month": "2025-03",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 23,
+    "success_rate_pct": 17.8,
+    "avg_net_pct": -0.128
+   },
+   {
+    "month": "2025-04",
+    "model_version": "ML-v1",
+    "picks": 132,
+    "successes": 30,
+    "success_rate_pct": 22.7,
+    "avg_net_pct": -0.198
+   },
+   {
+    "month": "2025-04",
+    "model_version": "RULE-v1",
+    "picks": 132,
+    "successes": 25,
+    "success_rate_pct": 18.9,
+    "avg_net_pct": -0.182
+   },
+   {
+    "month": "2025-05",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 20,
+    "success_rate_pct": 15.5,
+    "avg_net_pct": -0.393
+   },
+   {
+    "month": "2025-05",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 27,
+    "success_rate_pct": 20.9,
+    "avg_net_pct": -0.197
+   },
+   {
+    "month": "2025-06",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 28,
+    "success_rate_pct": 21.7,
+    "avg_net_pct": 0.082
+   },
+   {
+    "month": "2025-06",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 24,
+    "success_rate_pct": 18.6,
+    "avg_net_pct": -0.128
+   },
+   {
+    "month": "2025-07",
+    "model_version": "ML-v1",
+    "picks": 138,
+    "successes": 29,
+    "success_rate_pct": 21.0,
+    "avg_net_pct": -0.584
+   },
+   {
+    "month": "2025-07",
+    "model_version": "RULE-v1",
+    "picks": 138,
+    "successes": 32,
+    "success_rate_pct": 23.2,
+    "avg_net_pct": 0.151
+   },
+   {
+    "month": "2025-08",
+    "model_version": "ML-v1",
+    "picks": 126,
+    "successes": 31,
+    "success_rate_pct": 24.6,
+    "avg_net_pct": -0.474
+   },
+   {
+    "month": "2025-08",
+    "model_version": "RULE-v1",
+    "picks": 126,
+    "successes": 21,
+    "success_rate_pct": 16.7,
+    "avg_net_pct": -0.379
+   },
+   {
+    "month": "2025-09",
+    "model_version": "ML-v1",
+    "picks": 132,
+    "successes": 29,
+    "success_rate_pct": 22.0,
+    "avg_net_pct": 0.056
+   },
+   {
+    "month": "2025-09",
+    "model_version": "RULE-v1",
+    "picks": 132,
+    "successes": 24,
+    "success_rate_pct": 18.2,
+    "avg_net_pct": 0.025
+   },
+   {
+    "month": "2025-10",
+    "model_version": "ML-v1",
+    "picks": 135,
+    "successes": 38,
+    "success_rate_pct": 28.1,
+    "avg_net_pct": 0.38
+   },
+   {
+    "month": "2025-10",
+    "model_version": "RULE-v1",
+    "picks": 135,
+    "successes": 23,
+    "success_rate_pct": 17.0,
+    "avg_net_pct": -0.188
+   },
+   {
+    "month": "2025-11",
+    "model_version": "ML-v1",
+    "picks": 123,
+    "successes": 36,
+    "success_rate_pct": 29.3,
+    "avg_net_pct": -0.048
+   },
+   {
+    "month": "2025-11",
+    "model_version": "RULE-v1",
+    "picks": 123,
+    "successes": 15,
+    "success_rate_pct": 12.2,
+    "avg_net_pct": -0.214
+   },
+   {
+    "month": "2025-12",
+    "model_version": "ML-v1",
+    "picks": 138,
+    "successes": 34,
+    "success_rate_pct": 24.6,
+    "avg_net_pct": -0.148
+   },
+   {
+    "month": "2025-12",
+    "model_version": "RULE-v1",
+    "picks": 138,
+    "successes": 26,
+    "success_rate_pct": 18.8,
+    "avg_net_pct": -0.059
+   },
+   {
+    "month": "2026-01",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 37,
+    "success_rate_pct": 28.7,
+    "avg_net_pct": 0.277
+   },
+   {
+    "month": "2026-01",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 32,
+    "success_rate_pct": 24.8,
+    "avg_net_pct": 0.169
+   },
+   {
+    "month": "2026-02",
+    "model_version": "ML-v1",
+    "picks": 120,
+    "successes": 33,
+    "success_rate_pct": 27.5,
+    "avg_net_pct": -0.034
+   },
+   {
+    "month": "2026-02",
+    "model_version": "RULE-v1",
+    "picks": 120,
+    "successes": 25,
+    "success_rate_pct": 20.8,
+    "avg_net_pct": -0.166
+   },
+   {
+    "month": "2026-03",
+    "model_version": "ML-v1",
+    "picks": 135,
+    "successes": 26,
+    "success_rate_pct": 19.3,
+    "avg_net_pct": -0.235
+   },
+   {
+    "month": "2026-03",
+    "model_version": "RULE-v1",
+    "picks": 135,
+    "successes": 17,
+    "success_rate_pct": 12.6,
+    "avg_net_pct": -0.428
+   },
+   {
+    "month": "2026-04",
+    "model_version": "ML-v1",
+    "picks": 132,
+    "successes": 44,
+    "success_rate_pct": 33.3,
+    "avg_net_pct": 0.578
+   },
+   {
+    "month": "2026-04",
+    "model_version": "RULE-v1",
+    "picks": 132,
+    "successes": 22,
+    "success_rate_pct": 16.7,
+    "avg_net_pct": -0.338
+   },
+   {
+    "month": "2026-05",
+    "model_version": "ML-v1",
+    "picks": 126,
+    "successes": 25,
+    "success_rate_pct": 19.8,
+    "avg_net_pct": -0.482
+   },
+   {
+    "month": "2026-05",
+    "model_version": "RULE-v1",
+    "picks": 126,
+    "successes": 20,
+    "success_rate_pct": 15.9,
+    "avg_net_pct": -0.258
+   },
+   {
+    "month": "2026-06",
+    "model_version": "ML-v1",
+    "picks": 132,
+    "successes": 41,
+    "success_rate_pct": 31.1,
+    "avg_net_pct": -0.08
+   },
+   {
+    "month": "2026-06",
+    "model_version": "RULE-v1",
+    "picks": 132,
+    "successes": 32,
+    "success_rate_pct": 24.2,
+    "avg_net_pct": 0.02
+   },
+   {
+    "month": "2026-07",
+    "model_version": "ML-v1",
+    "picks": 135,
+    "successes": 37,
+    "success_rate_pct": 27.4,
+    "avg_net_pct": -0.092
+   },
+   {
+    "month": "2026-07",
+    "model_version": "RULE-v1",
+    "picks": 135,
+    "successes": 21,
+    "success_rate_pct": 15.6,
+    "avg_net_pct": -0.138
+   },
+   {
+    "month": "2026-08",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 44,
+    "success_rate_pct": 34.1,
+    "avg_net_pct": 0.562
+   },
+   {
+    "month": "2026-08",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 29,
+    "success_rate_pct": 22.5,
+    "avg_net_pct": 0.363
+   },
+   {
+    "month": "2026-09",
+    "model_version": "ML-v1",
+    "picks": 132,
+    "successes": 37,
+    "success_rate_pct": 28.0,
+    "avg_net_pct": -0.1
+   },
+   {
+    "month": "2026-09",
+    "model_version": "RULE-v1",
+    "picks": 132,
+    "successes": 27,
+    "success_rate_pct": 20.5,
+    "avg_net_pct": 0.001
+   },
+   {
+    "month": "2026-10",
+    "model_version": "ML-v1",
+    "picks": 129,
+    "successes": 29,
+    "success_rate_pct": 22.5,
+    "avg_net_pct": 0.002
+   },
+   {
+    "month": "2026-10",
+    "model_version": "RULE-v1",
+    "picks": 129,
+    "successes": 21,
+    "success_rate_pct": 16.3,
+    "avg_net_pct": -0.185
+   }
+  ],
+  "overall": [
+   {
+    "model_version": "ML-v1",
+    "picks": 3237,
+    "successes": 832,
+    "success_rate_pct": 25.7,
+    "avg_net_pct": -0.024
+   },
+   {
+    "model_version": "RULE-v1",
+    "picks": 3237,
+    "successes": 609,
+    "success_rate_pct": 18.8,
+    "avg_net_pct": -0.095
+   }
+  ],
+  "positive_control": {
+   "passed": true,
+   "effect_planted": 0.01,
+   "metrics": {
+    "ML ranker": {
+     "trades": 3237.0,
+     "win_rate_pct": 52.3015,
+     "profit_factor": 1.3375,
+     "avg_trade_pct": 0.3148,
+     "sharpe_annualised": 3.7902,
+     "max_drawdown_pct": -10.4828,
+     "total_return_pct": 646.8918,
+     "hit_rate_pct": 25.7337
+    },
+    "Rule-based (spec weights)": {
+     "trades": 3237.0,
+     "win_rate_pct": 50.5406,
+     "profit_factor": 1.1707,
+     "avg_trade_pct": 0.1476,
+     "sharpe_annualised": 1.8822,
+     "max_drawdown_pct": -14.8596,
+     "total_return_pct": 145.7306,
+     "hit_rate_pct": 20.2039
+    },
+    "Whole universe (no ranking)": {
+     "trades": 12948.0,
+     "win_rate_pct": 49.0192,
+     "profit_factor": 1.0582,
+     "avg_trade_pct": 0.0445,
+     "sharpe_annualised": 1.4502,
+     "max_drawdown_pct": -5.705,
+     "total_return_pct": 32.1348,
+     "hit_rate_pct": 15.3228
+    }
+   },
+   "ml_vs_universe_ci_pct": [
+    0.1876,
+    0.3622
+   ],
+   "gap_importance_noise": 0.0012,
+   "gap_importance_control": 0.0152
+  }
+ },
+ "quarterly_report": [
+  {
+   "rank": 1,
+   "report_date": "2026-10-31",
+   "ticker": "2222.SR",
+   "company_name": "Saudi Aramco",
+   "market": "TASI",
+   "total": 22,
+   "value": 5,
+   "dividend": 5,
+   "health": 6,
+   "past": 6,
+   "future": 0,
+   "rating": "Good",
+   "yield_class": "Fairly valued",
+   "dcf_class": "Undervalued"
+  },
+  {
+   "rank": 2,
+   "report_date": "2026-10-31",
+   "ticker": "MSFT",
+   "company_name": "Microsoft",
+   "market": "US",
+   "total": 21,
+   "value": 0,
+   "dividend": 5,
+   "health": 6,
+   "past": 6,
+   "future": 4,
+   "rating": "Good",
+   "yield_class": "Overvalued",
+   "dcf_class": "Overvalued"
+  },
+  {
+   "rank": 3,
+   "report_date": "2026-10-31",
+   "ticker": "NVDA",
+   "company_name": "NVIDIA",
+   "market": "US",
+   "total": 20,
+   "value": 0,
+   "dividend": 3,
+   "health": 6,
+   "past": 6,
+   "future": 5,
+   "rating": "Good",
+   "yield_class": "Overvalued",
+   "dcf_class": "Overvalued"
+  },
+  {
+   "rank": 4,
+   "report_date": "2026-10-31",
+   "ticker": "7200.SR",
+   "company_name": "Almoammar Information Systems",
+   "market": "TASI",
+   "total": 19,
+   "value": 0,
+   "dividend": 3,
+   "health": 6,
+   "past": 6,
+   "future": 4,
+   "rating": "Good",
+   "yield_class": "Overvalued",
+   "dcf_class": "Fairly valued"
+  },
+  {
+   "rank": 5,
+   "report_date": "2026-10-31",
+   "ticker": "AMD",
+   "company_name": "AMD",
+   "market": "US",
+   "total": 13,
+   "value": 0,
+   "dividend": 1,
+   "health": 6,
+   "past": 2,
+   "future": 4,
+   "rating": "Average",
+   "yield_class": "n/a",
+   "dcf_class": "Overvalued"
+  },
+  {
+   "rank": 6,
+   "report_date": "2026-10-31",
+   "ticker": "TSLA",
+   "company_name": "Tesla",
+   "market": "US",
+   "total": 13,
+   "value": 0,
+   "dividend": 1,
+   "health": 6,
+   "past": 3,
+   "future": 3,
+   "rating": "Average",
+   "yield_class": "n/a",
+   "dcf_class": "Overvalued"
+  },
+  {
+   "rank": 7,
+   "report_date": "2026-10-31",
+   "ticker": "AAPL",
+   "company_name": "Apple",
+   "market": "US",
+   "total": 13,
+   "value": 0,
+   "dividend": 5,
+   "health": 4,
+   "past": 2,
+   "future": 2,
+   "rating": "Average",
+   "yield_class": "Overvalued",
+   "dcf_class": "Overvalued"
+  },
+  {
+   "rank": 8,
+   "report_date": "2026-10-31",
+   "ticker": "2082.SR",
+   "company_name": "ACWA Power",
+   "market": "TASI",
+   "total": 10,
+   "value": 0,
+   "dividend": 1,
+   "health": 2,
+   "past": 3,
+   "future": 4,
+   "rating": "Weak",
+   "yield_class": "Overvalued",
+   "dcf_class": "n/a"
+  }
+ ],
+ "fundamentals_source": [
+  "ILLUSTRATIVE FIXTURE (ImportError)"
+ ]
+}
